@@ -1,0 +1,82 @@
+name: ucv_restaurant
+description: Proyecto UCV Restaurant - Sistema de pedidos y reservas con Firebase.
+publish_to: 'none'
+
+version: 2.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- UI ---
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  badges: ^3.1.2
+  provider: ^6.1.2
+
+  # --- Multimedia ---
+  image_picker: ^0.8.6
+  video_player: ^2.9.2
+  audioplayers: ^6.5.1
+
+  # --- Firebase ---
+  firebase_core: ^3.7.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.5.1
+  firebase_storage: ^12.3.1
+  cloud_functions: ^5.4.2
+  firebase_messaging: ^15.1.2
+
+  # --- Notificaciones locales ---
+  flutter_local_notifications: ^17.1.2
+
+  # --- Login externo ---
+  google_sign_in: ^6.1.6
+  flutter_facebook_auth: ^7.1.1
+
+  # --- Utilitarios ---
+  shared_preferences: ^2.3.3
+  http: ^1.2.2
+  decimal: ^2.3.2
+
+  # --- Generación de PDF ---
+  pdf: ^3.10.4
+  printing: ^5.11.0
+  fl_chart: ^1.1.1
+
+  qr_flutter: ^4.0.0
+  # --- State management alternativo (opcional si usas Provider) ---
+  flutter_riverpod: ^2.5.1
+
+  # --- Email ---
+  mailer: ^6.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  web:
+    generate: true
+  windows:
+    generate: true
+  linux:
+    generate: true
+  macos:
+    generate: true
+  image_path: "assets/images/logo_op_2.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/imgtaully/logo_ucv_restaurant.png
+    - assets/videos/logo_ucv_restaurant.mp4
+
+
